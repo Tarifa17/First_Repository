@@ -8,10 +8,10 @@ public void setup(){
   imprimirDistancia();
 }
 
-public void calculoDistancia(){
+public void calculoDistancia(){ //calculamos la distancia entre mario y el kooppa
   distanciaMK = posicionKooppa - posicionMario;
 }
 
 public void imprimirDistancia(){
-  println(distanciaMK);
+  println(distanciaMK); //imprime la distancia entre mario y el kooppa
 }
